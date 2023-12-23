@@ -19,13 +19,13 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <GetIP />
         <Analytics />
-        <div className="w-screen flex flex-col">
+        <div className="w-full flex flex-col">
           <Nav />
           <div className="grid grid-cols-12 h-screen p">
             <div className="hidden pt-[62px] lg:block lg:pt-4 col-span-2 border-r">
               <Sidebar />
             </div>
-            <div id="content" className="col-span-12 lg:col-span-7 pt-[62px] lg:pt-4 overflow-y-auto">{children}</div>
+            <div id="content" className="col-span-12 lg:col-span-7 pt-[62px] lg:pt-4 justify-center">{children}</div>
             <div className="pt-[62px] lg:pt-4 hidden lg:block col-span-3 border-l px-4">
               <History />
             </div>

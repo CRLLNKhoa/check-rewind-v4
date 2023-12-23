@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 export default function Nav() {
   return (
-    <nav className="flex border-b items-center fixed h-[52px] justify-between  top-0 left-0 right-0 bg-white px-4 lg:hidden">
+    <nav className="flex border-b z-50 items-center fixed h-[52px] justify-between  top-0 left-0 right-0 bg-white px-4 lg:hidden">
       <MenuMobile />
       <NoticMobile />
       <h1 className="font-bold cursor-pointer">{`<CheckCost />`}</h1>
