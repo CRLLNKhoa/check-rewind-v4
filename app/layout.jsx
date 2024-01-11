@@ -5,7 +5,6 @@ import Sidebar from "@/components/Layout/Sidebar";
 import History from "@/components/Layout/History";
 import GetIP from "@/components/Provider/GetIP";
 import { Analytics } from "@vercel/analytics/react";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +16,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="vi">
-      <Head>
+      <head>
         <meta
           name="google-adsense-account"
           content="ca-pub-7465388386459244"
         />
-      </Head>
+      </head>
       <body className={inter.className}>
         <GetIP />
         <Analytics />
