@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
           name="google-adsense-account"
           content="ca-pub-7465388386459244"
         />
+        <meta name="google-site-verification" content="NghP7TruNWxRG4mdYC61akZqnhrqwtMB0TIC8S1XeKQ" />
       </head>
       <body className={inter.className}>
         <GetIP />
