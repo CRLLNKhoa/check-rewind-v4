@@ -42,6 +42,7 @@ export default function Home() {
   return (
     <div className="flex justify-center w-full">
       <div className="px-4 flex w-full flex-col pb-12">
+      <marquee className="text-red-600 mb-2" direction="left">Mọi người có thể thêm website thành app bằng cách nhấn vào biểu tượng tải về ở thanh địa chỉ truy cập. Xin cảm ơn!</marquee>
         <Tab pathname={"Single Rewind"} />
         <h1 className="text-center font-bold pt-4 m-0">Single Rewind</h1>
         <p className="text-center text-xs">

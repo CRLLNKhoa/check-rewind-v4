@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Code by Lương Khoa",
   description: "Di sản cuối cùng trước khi nghỉ game!",
+  manifest: '/manifest.webmanifest'
 };
 
 export default function RootLayout({ children }) {
