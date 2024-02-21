@@ -138,6 +138,7 @@ export default function Home() {
                   ((item.cost >=  294 && item.cost <= 313) && "bg-[#cc3200]" ),
                   ((item.cost >=  313 && item.cost <= 332) && "bg-[#e51900]" ),
                   ((item.cost >=  332 && item.cost <= 354) && "bg-[#ff0000]" ),
+                  ((item.cost >=  354 && item.cost <= 400) && "bg-[#441111]" ),
                 )}
                 key={item.day}
               >
