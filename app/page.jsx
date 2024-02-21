@@ -20,8 +20,8 @@ import { cn } from "@/lib/utils";
 export default function Home() {
   const [data, setData] = useState(dataSingleCost);
   const [dataTable, setDataTable] = useState([]);
-  const [currentDay, setCurrentDay] = useState(0);
-  const [plannedDay, setPlannedDay] = useState(0);
+  const [currentDay, setCurrentDay] = useState(1000);
+  const [plannedDay, setPlannedDay] = useState(1500);
   const [sort, setSort] = useState(false);
 
   function handleSearch() {
