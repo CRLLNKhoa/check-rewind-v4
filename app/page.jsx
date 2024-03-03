@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className="flex justify-center w-full">
       <div className="px-4 flex w-full flex-col pb-12">
-      <marquee className="text-red-600 mb-2 font-bold text-xs" direction="left">Website này sắp bay màu rồi :(</marquee>
+      <marquee className="text-red-600 mb-2 font-bold text-xs" direction="left">Sắp update phiên bản mới!</marquee>
         <Tab pathname={"Single Rewind"} />
         <h1 className="text-center font-bold pt-4 m-0">Single Rewind</h1>
         <p className="text-center text-xs">
